@@ -1,7 +1,7 @@
 i =  map(lambda x:x**3, range(5))
 print(list(i))
 
-j = filter(lambda x:x>3, range(10))
+j = map(lambda x:x>3, range(10))
 print(list(j))
 
 ingredientes1 ,estado = ['tomate', 'ovo', 'carne'], ['fresco','cozido', 'mal-passada']
